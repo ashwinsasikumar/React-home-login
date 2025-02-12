@@ -9,10 +9,10 @@ function App() {
     <div>
       <Navigation />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/About" element={<About />} />
-        <Route path="/Login" element={<Login />} />
-        <Route path="/Welcome" element={<Welcome />} />
+        <Route path="/React-home-login/" element={<Home />} />
+        <Route path="/React-home-login/About" element={<About />} />
+        <Route path="/React-home-login/Login" element={<Login />} />
+        <Route path="/React-home-login/Welcome" element={<Welcome />} />
       </Routes>
     </div>
   );

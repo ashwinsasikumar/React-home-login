@@ -6,7 +6,7 @@ export default function Login() {
   const navigate = useNavigate();
   const handleLogin = () => {
     if (username && password) {
-      navigate("/welcome");
+      navigate("/React-home-login/welcome");
     } else {
       alert("please input the username and password");
     }
