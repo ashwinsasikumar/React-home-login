@@ -4,8 +4,16 @@ export default function About() {
     <div className={styles.content}>
       <div className={styles.container}>
         <div className={styles.aboutbox}>
-          <h1>About </h1>
-          <p>hello</p>
+          <h1>
+            At Smart Solutions, we specialize in industry and home automation to
+            make life smarter and businesses more efficient. Our IoT-driven
+            systems enhance security, optimize energy use, and simplify daily
+            tasks.
+          </h1>
+          <p>Cutting-edge technology</p>
+          <p>Affordable & scalable solutions</p>
+          <p>24/7 customer support</p>
+          <p>Tailored automation for homes & industries</p>
         </div>
       </div>
     </div>

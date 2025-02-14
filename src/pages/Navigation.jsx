@@ -8,12 +8,12 @@ export default function Navigation() {
       <div className={styles.top}>
         <Button Name={"Home"} Click={() => navigate("/React-home-login")} />
         <Button
-          Name={"About"}
-          Click={() => navigate("/React-home-login/About")}
+          Name={"Contact"}
+          Click={() => navigate("/React-home-login/contact")}
         />
         <Button
-          Name={"Login"}
-          Click={() => navigate("/React-home-login/Login")}
+          Name={"About"}
+          Click={() => navigate("/React-home-login/About")}
         />
       </div>
     </div>
